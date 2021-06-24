@@ -1,0 +1,82 @@
+img {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 0 1rem 1rem 1rem;
+}
+
+h1 {
+  border-bottom-style: inset;
+  margin: 0 1rem 2rem 1rem;
+}
+
+body {
+  font-family: "Zilla Slab Highlight", sans-serif;
+  font-size: 1.25rem;
+  background-color: #a8dadc;
+}
+
+#playerDialog {
+  font-family: "Zilla Slab Highlight";
+  font-weight: light;
+  color: #ab3c3c;
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+input[type="text"] {
+  margin: 1.75rem;
+  padding: 0.5rem 0 0 0.5rem;
+}
+/* 
+  input[type="button"]  */
+#outFiltrar {
+  /* font-family: "Zilla Slab Highlight"; */
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.75rem;
+  margin: 1.25rem;
+  background: #3eccbb;
+  box-shadow: 0 6px #2a9d8f;
+}
+
+#btListar {
+  /* font-family: "Zilla Slab Highlight"; */
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.75rem;
+  margin: 1.25rem;
+  background: #cb4e4e;
+  box-shadow: 0 6px #ab3c3c;
+}
+
+#startGame {
+  /* font-family: "Zilla Slab Highlight"; */
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.75rem;
+  margin: 1.25rem;
+  background: #d14dab;
+  box-shadow: 0 6px #9b287b;
+}
+
+button:hover {
+  box-shadow: 0 4px #ab3c3c;
+  top: 2px;
+}
+
+button:active {
+  box-shadow: 0 0px #ab3c3c;
+  top: 6px;
+}

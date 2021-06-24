@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jokenpô</title>
+  </head>
+  <body>
+    <h1>Jogo Pedra, Papel e Tesoura</h1>
+    <p>
+      <b>Regras do jogo:</b> <br />
+      *Pedra destrói tesoura (Pedra ganha da tesoura) <br />
+      *Tesoura corta papel(Tesoura ganha do papel) <br />
+      *Papel embrulha pedra (Papel ganha da pedra)
+      <br />
+      *Se ambos os objetos forem iguais, o jogo termina empatado.
+    </p>
+    <p>
+      Jogador nº1, escolha entre pedra, papel ou tesoura:
+      <input type="text" id="playerOneInput" />
+    </p>
+    <span id="playerOneJokenpo"></span>
+    <button id="startGame">Iniciar</button>
+    <span id="playerTwoJokenpo"></span>
+    <p id="gameResult"></p>
+    <script src="../app/jokenpo.js"></script>
+  </body>
+</html>
