@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Espera | Restaurante Allegro</title>
+  </head>
+  <body>
+    <h3>Lista de Espera | Restaurante Allegro</h3>
+    <main class="container">
+      <section id="inForm">
+        <p>
+          Adicionar cliente à fila:
+          <input type="text" id="inCliente" autofocus />
+        </p>
+        <p>
+          Escolha uma cor para a ficha:
+          <input type="color" id="inColor" />
+        </p>
+      </section>
+
+      <button id="btAdicionar">Entrar na fila</button>
+      <button id="btAtender">Concluir atendimento</button>
+    </main>
+    <section id="listaEsperaClientes"></section>
+
+    <script src="../app/desafio_array.js"></script>
+  </body>
+</html>

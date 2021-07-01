@@ -1,0 +1,148 @@
+:root {
+  --brand-primary: #1b6ec2;
+  --brand-success: #396f3a;
+  --brand-danger: #c92a2a;
+}
+
+body {
+  background-image: url("./images/restaurant_bkg.jpeg"),
+    linear-gradient(0deg, rgba(240, 135, 167, 0.3), rgba(0, 132, 255, 0.8));
+  background-color: #023e8a;
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image *
+     /* Resize the background image to cover the entire container */
+  background-blend-mode: multiply;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+h3 {
+  margin: auto;
+  text-align: center;
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+p {
+  font-weight: bolder;
+}
+
+input[type="text"] {
+  margin: auto;
+  width: 70%;
+}
+
+input[type="color"] {
+  margin: auto;
+  width: 70%;
+}
+
+#btAdicionar {
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.75rem;
+  margin: 1.25rem;
+  background: var(--brand-primary);
+}
+
+.container {
+  width: 46.7%;
+  margin: auto;
+  padding: 0.25rem auto;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#inForm {
+  margin: auto;
+  align-items: center;
+  padding: 1.25rem;
+}
+
+input {
+  margin-left: 2.75rem;
+}
+
+#btAdicionar:hover {
+  filter: brightness(85%);
+}
+
+#btAdicionar {
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.75rem;
+  margin: 1.25rem;
+  border-radius: 0.5rem;
+  background: var(--brand-primary);
+}
+
+#btAdicionar:hover {
+  filter: brightness(85%);
+}
+
+#btUrgencia {
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.75rem;
+  margin: 1.25rem;
+  border-radius: 0.5rem;
+  background: var(--brand-danger);
+}
+
+#btUrgencia:hover {
+  filter: brightness(85%);
+}
+
+#btAtender {
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.75rem;
+  margin: 1.25rem;
+  border-radius: 0.5rem;
+  background: var(--brand-success);
+}
+
+#btAtender:hover {
+  filter: brightness(85%);
+}
+
+div {
+  width: 30.7%;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 1.25rem;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(101, 105, 170, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  display: relative;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+div p {
+  padding-right: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
